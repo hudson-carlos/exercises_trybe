@@ -44,8 +44,10 @@ const order = {
   customerInfo(order);
   
   const orderModifier = (order) => {
-    // Adicione abaixo as informações necessárias.
-  
+    // Adicione abaixo as informações necessárias 
+    //"Olá Luiz Silva, o total do seu pedido de muzzarella, calabresa e Coca-Cola Zero é R$ 50,00.
+    console.log(`Olá ${order.name}, o total do seu pedido de ${order.order.pizza.pepperoni} e
+     ${order.order.drinks.type} é R$ ${order.order.pizza.pepperoni.price+order.order.drinks.price}`);
   }
   
   orderModifier(order);

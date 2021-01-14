@@ -7,6 +7,6 @@ function sum(a, b) {
 
   return a + b;
 }
-const expected = sum(4, 5);
-assert.strictEqual(expected, 9, 'esperava o valo 9');
+const expected = sum(0, 0);
+assert.strictEqual(expected, 0, 'esperava o valor 0');
 /// implemente seus testes aqui
