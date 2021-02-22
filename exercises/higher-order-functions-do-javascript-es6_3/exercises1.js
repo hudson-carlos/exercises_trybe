@@ -11,5 +11,4 @@ const arrays = [
 function flatten() {
    return arrays.reduce((save, value)=> save.concat(value),[]);
 }
-console.log(flatten(arrays));
 assert.deepStrictEqual(flatten(), ["1", "2", "3", true, 4, 5, 6]);
