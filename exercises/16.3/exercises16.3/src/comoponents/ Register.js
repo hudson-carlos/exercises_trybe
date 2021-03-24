@@ -59,4 +59,4 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   addRegister: e => dispatch(addRegister(e))});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Register);
+export default connect(mapStateToProps, mapDispatchToProps)(Register);ddd
